@@ -1,6 +1,10 @@
-a = [1, 5, 8]
-b = [2, 6, 9, 10]
-c = [100, 200]
-
-print(max([len(a), len(b), len(c)]))
-#print(min([len(a), len(b), len(c)]))
+class RailwayForm:
+    formtype = "Railway form"
+    def Printdata(self):
+        print(f"Name is {self.name}")
+        print(f"train is {self.train}")
+        
+applicationform = RailwayForm()
+applicationform.name = 'Sameer'
+applicationform.train = 'Express'
+applicationform.Printdata()
